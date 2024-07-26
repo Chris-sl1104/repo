@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'lora';
+    src: url('./Lora-VariableFont_wght.ttf') format('truetype');
+    font-weight: bold;
+    font-style: Medium;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('./Montserrat-Thin.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

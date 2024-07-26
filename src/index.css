@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './fonts/fonts.css';
+
+/*=====MASTER STYLES=====*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', "Montserrat"
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', "Montserrat"
+    monospace;
+    font-family: 'Montserrat';
+}
+
+/*=====PAGE STYLES=====*/
+
+/*FOOTER STYLES*/
+.footer-country {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+
+.footer-main{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.footer-logo{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.footer-socials{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+.footer-socials :hover{
+  color: #FFFFFF;
+}
+
+.footer-links{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 2rem;
+  color: #FFFFFF;
+}
+
+/*HEADER STYLES*/
+.headings{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  color: #9da2ac;
+}
+
+.line{
+  color: #9da2ac;
+  text-align: center;
+  font-size: 14px;
+}
+
+.body-text{
+  padding-top: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  color: #FFFFFF;
+}
+
+.hr-custom{
+  border-top: 1px solid #CFA14E; /* Adjust thickness and style as needed */
+  background-color: #CFA14E; /* Change background color */
+  opacity: 75%;
+}
+
+/*ABOUT US STYLES*/
+.about-heading{
+  padding-top: 1rem;
+  font-size: 30px;
+  color: #CFA14E;
+  font-weight: bold;
+  font-family: 'Montserrat';
+}
+
+/*CONTACT US STYLES*/
+
+.form-headers{
+  color: #FFFFFF;
+}
+
+.form-input{
+  background-color: black !important;
+  color: #FFFFFF;
+}
+
+.submit-button{
+  background-color: #CFA14E;
+  padding-left:1rem;
+  padding-right:1rem;
+}
+
+.check-text{
+  color: #FFFFFF;
+}
+
+.links{
+  text-decoration: underline;
+  color: #CFA14E;
+}
+
+.contact-body-text{
+  padding-top: 1rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.custom-flag {
+  background-color: #000000 !important;
+  padding: 0.5em;
+  border-radius: 4px; 
+}
+
+.submission-confirmation{
+  padding-top: 10px;
+}
+
+/*POLICY STYLES*/
+
+.policy-heading{
+  color: #CFA14E;
+  padding-bottom: 1rem;
+  padding-left: 10rem;
+  font-size: 30px;
+}
+
+.policy-subheading{
+  padding-top: 1rem;
+  padding-left: 10rem;
+  color: #CFA14E;
+  font-size: 18px;
+  font-weight: light;
+  text-align: left;
+}
+
+.policy-body-text{
+  padding-top: 1rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-bottom: 1rem;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+/*HOME STYLES*/
+.home-heading{
+  text-align: center !important;
+}
+
+/*SPONSOR STYLES*/
+.sponsor-body-text{
+  color: #FFFFFF;
+  font-size: 15px;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
